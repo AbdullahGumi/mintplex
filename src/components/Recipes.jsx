@@ -1,5 +1,3 @@
-import React from "react";
-
 const Recipes = () => {
   return (
     <section>
@@ -46,7 +44,7 @@ const Recipes = () => {
                 </a>
               </div>
             </div>
-            <div className="bg-white rounded-lg shadow-md flex flex-col p-4 w-full md:w-80 h-120 shadow-md">
+            <div className="bg-white rounded-lg shadow-md flex flex-col p-4 w-full md:w-80 h-120">
               <p className="font-ff font-bold text-black text-2xl">
                 Bulk Airdrop with Mintplex
               </p>
@@ -62,16 +60,16 @@ const Recipes = () => {
                 airdrop new items to all your current NFT holders.
               </p>
               <div className="w-full flex justify-center mt-4">
-                <a
+                <button
                   rel="noreferrer"
                   target="_blank"
                   className="cursor-pointer w-fit px-4 py-1 rounded-lg bg-gray-300 text-gray-800"
                 >
                   Coming Soon
-                </a>
+                </button>
               </div>
             </div>
-            <div className="bg-white rounded-lg shadow-md flex flex-col p-4 w-full md:w-80 h-120 shadow-md">
+            <div className="bg-white rounded-lg shadow-md flex flex-col p-4 w-full md:w-80 h-120 ">
               <p className="font-ff font-bold text-black text-2xl">
                 Mintplex minting in Discord
               </p>
@@ -87,13 +85,13 @@ const Recipes = () => {
                 inside of your project Discord.
               </p>
               <div className="w-full flex justify-center mt-4">
-                <a
+                <button
                   rel="noreferrer"
                   target="_blank"
                   className="cursor-pointer w-fit px-4 py-1 rounded-lg bg-gray-300 text-gray-800"
                 >
                   Coming Soon
-                </a>
+                </button>
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className="w-fit flex flex-col space-y-2 py-6 md:py-4 items-center md:items-end">
           <button className="py-1 px-2 flex text-[#344887] hover:text-white border-2 border-[#344887] rounded-md hover:bg-[#344887]">
-            Launch a Project
+            Dashboard
           </button>
           <a href="/" className="text-lg text-gray-500">
             About Mintplex

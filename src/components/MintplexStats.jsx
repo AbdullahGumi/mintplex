@@ -1,5 +1,3 @@
-import React from "react";
-
 const MintplexStats = () => {
   return (
     <section className="w-full flex bg-[#cd9696]">
