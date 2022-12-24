@@ -61,7 +61,7 @@ const Partners = () => {
         <section className="md:w-1/2">
           <Marquee>
             <div className="flex w-full">
-              {partnersAndFriends.map(({ href, src }) => (
+              {partnersAndFriends.map(({ href, src }, index) => (
                 <a
                   key={src}
                   target="_blank"
@@ -73,7 +73,9 @@ const Partners = () => {
                   <img
                     src={src}
                     alt="Mintplex Partner"
-                    className={`w-48 h-auto grayscale hover:grayscale-0`}
+                    className={`${
+                      index === 3 ? "w-20" : "w-48"
+                    } h-auto grayscale hover:grayscale-0`}
                   />
                 </a>
               ))}
@@ -81,7 +83,7 @@ const Partners = () => {
           </Marquee>
           <Marquee direction="right" className="mt-5">
             <div className="flex w-full">
-              {partnersAndFriends.map(({ href, src }) => (
+              {partnersAndFriends.map(({ href, src }, index) => (
                 <a
                   key={src}
                   target="_blank"
@@ -93,7 +95,9 @@ const Partners = () => {
                   <img
                     src={src}
                     alt="Mintplex Partner"
-                    className={`w-48 h-auto grayscale hover:grayscale-0`}
+                    className={`${
+                      index === 3 ? "w-20" : "w-48"
+                    } h-auto grayscale hover:grayscale-0`}
                   />
                 </a>
               ))}
